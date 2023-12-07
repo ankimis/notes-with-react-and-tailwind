@@ -1,0 +1,11 @@
+.card-text{
+    width: 150px;
+    height: 120px;
+    overflow: hidden;
+    text-overflow: "----";
+}
+img{
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+}
