@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+  margin: 0;
+  display: flex;
+  /* place-content: start; */
+  align-content: center;
+  justify-content: center;
+  color: aqua;
+}
+

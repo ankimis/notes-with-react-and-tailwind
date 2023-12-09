@@ -1,0 +1,41 @@
+/* *{
+    margin: 0%;
+    padding: 0%;
+} */
+p.card-text{
+    width: 250px;
+    height: 88px;
+    white-space: wrap; 
+    /* border: 1px solid #000000; */
+    overflow: hidden;
+    text-overflow: "----";
+}
+img{
+    width: 200px;
+    height: 120px;
+    object-fit: cover;
+}
+.container{
+  max-width: 1200px;
+  background-color: blue;
+  margin: auto;
+}
+
+.headeline{
+    text-align: center;
+    color: rgb(32, 24, 35);
+    text-shadow: 0px 1px 1px rgb(135, 139, 135);
+    font-weight: 700;
+    text-decoration-style: solid;
+    font-size: 20px;
+    padding-top: 5px;
+}
+.button{
+    width: 170px;
+    height: 130px;
+    overflow: hidden;
+    text-overflow: "----";
+}
+.btnheight{
+    width: 100%;
+}
