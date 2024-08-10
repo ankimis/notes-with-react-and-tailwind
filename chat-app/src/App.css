@@ -1,0 +1,119 @@
+.chatbox{
+  border: 2px solid gray;
+  border-radius: 5px;
+  margin: 5px 0;
+  padding: 10px;
+  background-color: bisque;
+}
+.container{
+  display: flex;
+}
+.container.me{
+  flex-direction: row-reverse;
+}
+.me .chatbox{
+  background-color: aqua;
+}
+.btm{
+  position: fixed;
+  bottom: 2px;
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  /* padding: 5px 5px; */
+}
+.btm input{
+  padding: 20px 5px;
+  flex-grow: 1;
+
+}
+.profile{
+  top:50%;
+display: flex;
+flex-direction: row;
+justify-content: center;
+height: 100%;
+}
+input[type=text] {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  /* border: none; */
+  font-weight: 800;
+  font-size: medium;
+  border-bottom: 2px solid red;
+}
+.inputuser{
+   display: flex;
+   justify-content: center;
+   margin-top: 30vh;
+}
+
+img{
+  margin: 5px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 1px solid red;
+  margin-right: 20px;
+  background-image: url('./profile.jpeg');
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+}
+.send{
+  margin: 6px 0px;
+  background-image: url('./send.png');
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+}
+
+.user{
+  padding: 5px;
+}
+.username{
+  text-align: center;
+  color: black;
+}
+.btm button{
+  padding: 20px 0px;
+}
+.chat-container{
+  height: 70vh;
+  overflow-y: scroll;
+  border: 2px solid rgb(25, 31, 17);
+}
+.con:hover .overlay {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+ 
+
+.overlay {
+  width: 20%;
+  height: 20%;
+  position: absolute;
+  background-image: url('./profile.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
+  -webkit-transition: .3s ease;
+  transition: .3s ease;
+}

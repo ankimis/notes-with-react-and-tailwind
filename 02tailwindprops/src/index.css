@@ -3,12 +3,12 @@
 @tailwind utilities;
 
 
+
 body {
-  margin: 0;
-  display: flex;
-  /* place-content: start; */
-  align-content: center;
-  justify-content: center;
-  color: aqua;
-}
+  background-image: url(images.jpg);
+  background-repeat:no-repeat;
+  background-size: cover;
+  /* background-color: coral; */
+  }
+  
 
